@@ -29,7 +29,7 @@ There will also be a visualiztion via Tableau.
     - run /AWS/sql/311dw_init_date_temp_proc.sql
     - run /AWS/sql/311dw_updateDimensionsProc.sql
 
-  ![plot](./AWS/img/event database.png)
+  ![plot](./AWS/img/database.png)
 
 ## 2.3 Create lambda functions
 - 2.3.1 zip all python scripts in /AWS/script without the /AWS/script/jupter. Name is function.zip
@@ -64,4 +64,4 @@ There will also be a visualiztion via Tableau.
   - create a rule. Runing time is 3:45am/per day. Select the Lambda function (311data_covid19_cases_to_rds_daily_rule) as target.
   - create a rule. Runing time is 4：00am/per day. Select the Lambda function (311_daily_dw_update_stored_procedure_rule) as target.
 
-  ![plot](./AWS/img/event bridge.png)
+  ![plot](./AWS/img/eventbridge.png)
