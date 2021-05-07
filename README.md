@@ -28,6 +28,7 @@ There will also be a visualiztion via Tableau.
     - run /AWS/sql/311_dw_ddl.sql
     - run /AWS/sql/311dw_init_date_temp_proc.sql
     - run /AWS/sql/311dw_updateDimensionsProc.sql
+![plot](./AWS/img/event database.png)
 
 ## 2.3 Create lambda functions
 - 2.3.1 zip all python scripts in /AWS/script without the /AWS/script/jupter. Name is function.zip
@@ -52,6 +53,7 @@ There will also be a visualiztion via Tableau.
   - 5) 311_daily_dw_update_stored_procedure. It will call storied proceduce to finish the Level-1 data warehouse.
     - upload the function.zip
     - add VPC. The VPC is small with instance of RDS
+  ![plot](./AWS/img/lambda.png)
 
 ## 2.4 Schedule the lambda functions
   - Open EventBridge (CloudWatch Events)
@@ -60,3 +62,4 @@ There will also be a visualiztion via Tableau.
   - create a rule. Runing time is 3:30am/per day. Select the Lambda function (311data_daily_data_to_rds_rule) as target.
   - create a rule. Runing time is 3:45am/per day. Select the Lambda function (311data_covid19_cases_to_rds_daily_rule) as target.
   - create a rule. Runing time is 4：00am/per day. Select the Lambda function (311_daily_dw_update_stored_procedure_rule) as target.
+![plot](./AWS/img/event bridge.png)
