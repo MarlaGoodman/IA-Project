@@ -1,0 +1,14 @@
+DELIMITER $$
+CREATE PROCEDURE `init_date_temp`()
+BEGIN
+  DECLARE BEGIN_DATE date DEFAULT '2019-01-01';
+  
+  -- while BEGIN_DATE <=now() do
+  while BEGIN_DATE <= '2022-12-31' do
+      INSERT INTO date_temp (date_id) VALUES (BEGIN_DATE);
+	  -- SET BEGIN_DATE = BEGIN_DATE + INTERVAL '1 day';
+      SET BEGIN_DATE = DATE_ADD(BEGIN_DATE, INTERVAL 1 DAY);
+   end while;
+
+END$$
+DELIMITER ;
