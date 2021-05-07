@@ -1,0 +1,166 @@
+﻿weekends,caserate,borough
+8/8/2020,26.51,Bronx
+8/15/2020,28.13,Bronx
+8/22/2020,23.34,Bronx
+8/29/2020,25.88,Bronx
+9/5/2020,18.76,Bronx
+9/12/2020,22.28,Bronx
+9/19/2020,22.35,Bronx
+9/26/2020,26.37,Bronx
+10/3/2020,28.77,Bronx
+10/10/2020,33.42,Bronx
+10/17/2020,34.97,Bronx
+10/24/2020,43.79,Bronx
+10/31/2020,49.78,Bronx
+11/7/2020,73.76,Bronx
+11/14/2020,108.09,Bronx
+11/21/2020,140.18,Bronx
+11/28/2020,156.32,Bronx
+12/5/2020,219.93,Bronx
+12/12/2020,225.07,Bronx
+12/19/2020,226.06,Bronx
+12/26/2020,242.98,Bronx
+1/2/2021,344.8,Bronx
+1/9/2021,456.21,Bronx
+1/16/2021,417.92,Bronx
+1/23/2021,412.14,Bronx
+1/30/2021,399.59,Bronx
+2/6/2021,338.88,Bronx
+2/13/2021,333.8,Bronx
+2/20/2021,269.64,Bronx
+2/27/2021,290.72,Bronx
+3/6/2021,249.19,Bronx
+3/13/2021,232.12,Bronx
+3/20/2021,199.69,Bronx
+8/8/2020,18.79,Brookly
+8/15/2020,19.3,Brookly
+8/22/2020,16.52,Brookly
+8/29/2020,20.86,Brookly
+9/5/2020,21.95,Brookly
+9/12/2020,26.45,Brookly
+9/19/2020,33.05,Brookly
+9/26/2020,47.66,Brookly
+10/3/2020,59.96,Brookly
+10/10/2020,56.99,Brookly
+10/17/2020,48.24,Brookly
+10/24/2020,52.15,Brookly
+10/31/2020,50.24,Brookly
+11/7/2020,75.51,Brookly
+11/14/2020,95.12,Brookly
+11/21/2020,113.6,Brookly
+11/28/2020,130.08,Brookly
+12/5/2020,196.49,Brookly
+12/12/2020,219.46,Brookly
+12/19/2020,232.55,Brookly
+12/26/2020,256.73,Brookly
+1/2/2021,296.22,Brookly
+1/9/2021,396.3,Brookly
+1/16/2021,377.59,Brookly
+1/23/2021,335.36,Brookly
+1/30/2021,333.96,Brookly
+2/6/2021,272.74,Brookly
+2/13/2021,250.4,Brookly
+2/20/2021,214.81,Brookly
+2/27/2021,251.34,Brookly
+3/6/2021,234.19,Brookly
+3/13/2021,232.94,Brookly
+3/20/2021,216.96,Brookly
+8/8/2020,15.96,Manhattan
+8/15/2020,15.84,Manhattan
+8/22/2020,17.74,Manhattan
+8/29/2020,16.7,Manhattan
+9/5/2020,15.66,Manhattan
+9/12/2020,20.2,Manhattan
+9/19/2020,19.59,Manhattan
+9/26/2020,21.61,Manhattan
+10/3/2020,27.87,Manhattan
+10/10/2020,28.06,Manhattan
+10/17/2020,32.6,Manhattan
+10/24/2020,37.39,Manhattan
+10/31/2020,41.32,Manhattan
+11/7/2020,65.57,Manhattan
+11/14/2020,103.7,Manhattan
+11/21/2020,116.17,Manhattan
+11/28/2020,126.85,Manhattan
+12/5/2020,153.68,Manhattan
+12/12/2020,170.07,Manhattan
+12/19/2020,175.72,Manhattan
+12/26/2020,173.94,Manhattan
+1/2/2021,195.8,Manhattan
+1/9/2021,293.98,Manhattan
+1/16/2021,261.43,Manhattan
+1/23/2021,255.11,Manhattan
+1/30/2021,245.53,Manhattan
+2/6/2021,203.97,Manhattan
+2/13/2021,193.1,Manhattan
+2/20/2021,177.32,Manhattan
+2/27/2021,193.28,Manhattan
+3/6/2021,171.73,Manhattan
+3/13/2021,174.31,Manhattan
+3/20/2021,156.14,Manhattan
+8/8/2020,17.48,Queens
+8/15/2020,18.41,Queens
+8/22/2020,18.99,Queens
+8/29/2020,16.95,Queens
+9/5/2020,19.12,Queens
+9/12/2020,21.25,Queens
+9/19/2020,22.98,Queens
+9/26/2020,27.02,Queens
+10/3/2020,39.13,Queens
+10/10/2020,39.71,Queens
+10/17/2020,37.54,Queens
+10/24/2020,47.61,Queens
+10/31/2020,46.1,Queens
+11/7/2020,70.15,Queens
+11/14/2020,115.31,Queens
+11/21/2020,122.77,Queens
+11/28/2020,147.08,Queens
+12/5/2020,215.41,Queens
+12/12/2020,246.02,Queens
+12/19/2020,247.58,Queens
+12/26/2020,282.36,Queens
+1/2/2021,352.95,Queens
+1/9/2021,458.77,Queens
+1/16/2021,419.33,Queens
+1/23/2021,384.01,Queens
+1/30/2021,366.75,Queens
+2/6/2021,289.73,Queens
+2/13/2021,265.41,Queens
+2/20/2021,237.15,Queens
+2/27/2021,255.43,Queens
+3/6/2021,239.32,Queens
+3/13/2021,247.04,Queens
+3/20/2021,243.76,Queens
+8/8/2020,16.38,Staten Island
+8/15/2020,22.05,Staten Island
+8/22/2020,18.9,Staten Island
+8/29/2020,18.69,Staten Island
+9/5/2020,31.29,Staten Island
+9/12/2020,30.24,Staten Island
+9/19/2020,28.35,Staten Island
+9/26/2020,39.9,Staten Island
+10/3/2020,46.62,Staten Island
+10/10/2020,47.04,Staten Island
+10/17/2020,51.25,Staten Island
+10/24/2020,63.43,Staten Island
+10/31/2020,92.83,Staten Island
+11/7/2020,144.28,Staten Island
+11/14/2020,222.2,Staten Island
+11/21/2020,272.61,Staten Island
+11/28/2020,327.21,Staten Island
+12/5/2020,476.96,Staten Island
+12/12/2020,406.6,Staten Island
+12/19/2020,403.66,Staten Island
+12/26/2020,455.96,Staten Island
+1/2/2021,603.6,Staten Island
+1/9/2021,704.2,Staten Island
+1/16/2021,552.99,Staten Island
+1/23/2021,466.25,Staten Island
+1/30/2021,361.24,Staten Island
+2/6/2021,295.29,Staten Island
+2/13/2021,306.42,Staten Island
+2/20/2021,256.23,Staten Island
+2/27/2021,288.99,Staten Island
+3/6/2021,325.53,Staten Island
+3/13/2021,313.77,Staten Island
+3/20/2021,301.59,Staten Island
