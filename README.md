@@ -28,6 +28,10 @@ There will also be a visualiztion via Tableau.
     - run /AWS/sql/311_dw_ddl.sql
     - run /AWS/sql/311dw_init_date_temp_proc.sql
     - run /AWS/sql/311dw_updateDimensionsProc.sql
+  
+  - upload history data
+    - history data of NYC median income. Open \AWS\script\jupyter311data_nyc_median_income_zipcode.ipynb. Modify file path to you local path, S3 paht or Github path. Run it.
+    - history data of NYC 311. Open \AWS\script\311data_history_to_rds.ipynb. Modify file path to you local path, S3 paht or Github path. Run it.
 
   ![plot](./AWS/img/database.png)
 
