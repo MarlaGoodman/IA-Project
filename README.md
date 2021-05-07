@@ -16,6 +16,10 @@ There will also be a visualiztion via Tableau.
 - 2.1.1 In AWS create a bucket named it. For example, bucket name: information-arch-yuehao-wang-assignment-8a
 
 - 2.1.2 Upload 4 files that are in the /AWS/data/ into the above bucket.
+  covid19_borough_caserate.csv
+  covid19_zipcode_caserate.csv
+  nyc_median_income_zipcode.csv
+  311_Service_Requests_from_2019_to_Present.csv (It is over 1.4GB. The Github does not allowed to upload it. We can use the S3 file)
 
 
 ## 2.2 Create RDS and create databases(schemas)
