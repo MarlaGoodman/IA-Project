@@ -46,7 +46,7 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
 ## 2.3 Create lambda functions
 - 2.3.1 zip all python scripts in /AWS/script without the /AWS/script/jupter. Name is function.zip
 
-- 2.3.2 crate a layer. 
+- 2.3.2 create a layer. 
   - Name is pandas-mysql-request
   - upload the \AWS\sources\panda_layer.zip
 
@@ -77,3 +77,8 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
   - create a rule. Runing time is 4：00am/per day. Select the Lambda function (311_daily_dw_update_stored_procedure_rule) as target.
 
   ![plot](./AWS/img/eventbridge.png)
+  
+# 3 Create Visualization
+
+# 4 Analyze Data
+
