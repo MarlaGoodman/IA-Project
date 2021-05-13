@@ -2,13 +2,17 @@
 This project is the final project for the Information Architectures course in Yeshiva University's Data Analytics and Visualization Graduate program. 
 Team members are Jiaqi Min, Alan Leidner, Yuehao Wang, Ke Chen, and Marla Goodman
 
-The project focuses on data from NYC 311's database. 
+The project focuses on data from NYC 311's database.
+
+* Problem: The general problem we are trying to solve is how can we analyze and understand the effect of outside variables on 311 complaints. 
+* Solution: Build a warehouse that updates automatically, and where it is easy to integrate other resources into, with frontend dashboard. As a proof of concept we will analyze the effect of covid and income levels on a subset of 311 complaints, noise complaints.
+
 
 In this Github, there will be files scripts that created our database and datawarehouse in MySQL workbench from the 311 data. 
 
 There will be charts and a Juptyer Notebook that examines the data for any statistical significance.
 
-There will also be a visualiztion via Tableau. 
+There will also be a Tableau Notebook that connects directly to the AWS architectrue.
 
 # 2 Deploy AWS
 ## 2.1 Create S3 and upload history data into S3
