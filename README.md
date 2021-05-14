@@ -147,7 +147,7 @@ In addition to exploring variables, we wanted to know if any of them had statist
   
   - run linear regression
 
-  ![plot](./Stats Images/IA_regression)
+  ![plot](./AWS/img/IA_regression.png)
 
 ## 4.2 Independece (pre/during covid & complaint type)
 
