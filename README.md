@@ -83,8 +83,48 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
   
 # 3 Create Visualization
 
-# 4 Analyze Data
-## 4.1 Bring in data from warehouse
+# 4 Analyze Data 
+(script here:https://github.com/MarlaGoodman/IA-Project/blob/main/IA%20Final%20Project%20Stats%20(1).ipynb)
+
+## 4.1 Income vs. complaint frequency
+
+- 4.1.1 Bring data into Jupyter Notebook
+  - Data sources (compiled into CSV folder here)
+    -import pandas library
+    - read in NYC median income by zipcode data: https://github.com/MarlaGoodman/IA-Project/blob/main/CSV/nyc_median_income.csv
+    - read in frequency of complaints by NYC zipcode data: https://github.com/MarlaGoodman/IA-Project/blob/main/CSV/nyc_311_zip.csv
+
+- 4.1.2 Prepare data
+  - merge data frames on zip code, rename columns
+  - import matplotlib, seaborn, sklearn, numpy and scipy libraries
+  - exploratory data anaylsis
+
+- 4.1.3 Analyze
+  - create scatterplot
+  - run linear regression
+
+## 4.2 Independece (pre/during covid & complaint type)
+
+- 4.2.1 Prepare and bring data into Jupyter Notebook
+  - run join statement from data warehouse in MySQL (script here:)
+  - get result containing complaint type(s), complaint key, year 
+  - export result to csv, upload to Github, run into Notebook data frame 
+
+- 4.2.2 Analyze
+  - Hypothesis test
+    - state null and alternative hypotheses
+    - meet chi - square test of independence conditions
+    - create contingency table
+    - use scipy to get p-value
+    - conclude (reject/fail to reject null hypothesis)
+
+
+
+
+
+    
+  
+ 
 
 
 
