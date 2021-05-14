@@ -135,7 +135,7 @@ In addition to exploring variables, we wanted to know if any of them had statist
 - 4.1.2 Prepare data
   - merge data frames on zip code, rename columns
 
-  ![plot](./Stats Images/IA_merge.png)
+  ![plot](./AWS/img/IA_merge.png)
   
   - import matplotlib, seaborn, sklearn, numpy and scipy libraries
   - exploratory data anaylsis
@@ -143,7 +143,7 @@ In addition to exploring variables, we wanted to know if any of them had statist
 - 4.1.3 Analyze
   - create scatterplot
 
-  ![plot](./Stats Images/IA-scatter.png) 
+  ![plot](./AWS/img/IA-scatter.png) 
   
   - run linear regression
 
@@ -162,12 +162,12 @@ In addition to exploring variables, we wanted to know if any of them had statist
     - meet chi - square test of independence conditions
     - create contingency table
 
-    ![plot](./Stats Images/IA_table1)
-    ![plot](./Stats Images/IA_table2)
+    ![plot](./AWS/img/IA_table1)
+    ![plot](./AWS/img/IA_table2)
     
     - use scipy to get p-value
 
-    ![plot](./Stats Images/img/IA_merge.png)
+    ![plot](./AWS/img/IA_stats.png)
 
     - conclude (reject/fail to reject null hypothesis)
 
