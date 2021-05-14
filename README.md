@@ -113,10 +113,13 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
  There are many variables an analyst might be interested analysing in this dataset. In our tableau workbook we connected directly to the AWS architecture to leverage the daily uploads. While there are many possible relationships in our data, we created three primary visualizations as proof of concept to explore.
 
 ## 3.1 Week over Week Change in Noise Complaints
+- This is a graph which would help analysts get an easy sense of which zipcodes are revieving more complaints over time. It would allow the viewer to know where they could focus their efforts, if complaints are rising over time.
    ![plot](./AWS/img/WeekOverWeek.png)
 ## 3.2 Map of Covid/Median Income
+- This visualization can show at a glance which areas of New York City have a disproportionate number of covid cases, compared to median income. Based on this image, it may be worth investigating how the information is recorded; I suspect that hospitals in the Bronx are reporting cases from their location, instead of from the patients home address.
    ![plot](./AWS/img/CovidIncomeMap.png)
 ## 3.3 Dashboard to explore Noise Complaints of Individual Zipcodes
+- This dashboard can help analysts explore individual zipcodes on a street level, to get a sense of what types of complaints are being reported on a ground level, and see how those complaints relate to the relative covid rates and median incomes over time.
    ![plot](./AWS/img/ExploreComplaintsByZipcode.png)
 
 In addition to exploring variables, we wanted to know if any of them had statistically significant affects on the ammount of noise complaints.
