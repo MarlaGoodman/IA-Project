@@ -164,7 +164,7 @@ In addition to exploring variables, we wanted to know if any of them had statist
     - meet chi - square test of independence conditions
     - create contingency table
 
-    ![plot](.AWS/img/IA_table1.png)
+    ![plot](.AWS/img/IA_table.png)
 
     - use scipy to get p-value
 
