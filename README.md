@@ -106,7 +106,7 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
 ## 4.2 Independece (pre/during covid & complaint type)
 
 - 4.2.1 Prepare and bring data into Jupyter Notebook
-  - run join statement from data warehouse in MySQL (script here:)
+  - run join statement from data warehouse in MySQL (example of joins: https://github.com/MarlaGoodman/IA-Project/blob/main/Joins.sql)
   - get result containing complaint type(s), complaint key, year 
   - export result to csv, upload to Github, run into Notebook data frame 
 
