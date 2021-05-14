@@ -148,6 +148,8 @@ In addition to exploring variables, we wanted to know if any of them had statist
   - run linear regression
 
   ![plot](./AWS/img/IA_regression.png)
+  
+  - Nearly 32% (or almost a third) of all the variation in the frequency of complaints from NYC zipcodes is explained by just the one variable of medican income per zipcode.
 
 ## 4.2 Independece (pre/during covid & complaint type)
 
@@ -163,13 +165,14 @@ In addition to exploring variables, we wanted to know if any of them had statist
     - create contingency table
 
     ![plot](./AWS/img/IA_table1)
-    ![plot](./AWS/img/IA_table2)
     
     - use scipy to get p-value
 
     ![plot](./AWS/img/IA_stats.png)
 
     - conclude (reject/fail to reject null hypothesis)
+    - Using a significance level of .05 (95%), we see that the p-value (0) is less than the significance value. Therefore, we reject the null hypothesis and conclude that there is some association between the timing of covid (Pre or During) and the complaints received by 311 in NYC.
+    - Can also take a look at noise complaints in another chi-square test
 
 
 # 5 Lines of Work to Expand this Project in the Future
