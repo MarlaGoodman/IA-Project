@@ -111,11 +111,11 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
  There are many variables an analyst might be interested analysing in this dataset. In our tableau workbook we connected directly to the AWS architecture to leverage the daily uploads. While there are many possible relationships in our data, we created three primary visualizations as proof of concept to explore.
 
 ## 3.1 Week over Week Change in Noise Complaints
-    ![plot](./AWS/img/WeekOverWeek.png)
+   ![plot](./AWS/img/WeekOverWeek.png)
 ## 3.2 Map of Covid/Median Income
-    ![plot](./AWS/img/CovidIncomeMap.png)
+   ![plot](./AWS/img/CovidIncomeMap.png)
 ## 3.3 Dashboard to explore Noise Complaints of Individual Zipcodes
-    ![plot](./AWS/img/ExploreComplaintsByZipcode.png)
+   ![plot](./AWS/img/ExploreComplaintsByZipcode.png)
 
 # 4 Analyze Data 
 (script here:https://github.com/MarlaGoodman/IA-Project/blob/main/IA%20Final%20Project%20Stats%20(1).ipynb)
