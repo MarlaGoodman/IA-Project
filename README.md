@@ -84,4 +84,7 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
 # 3 Create Visualization
 
 # 4 Analyze Data
+## 4.1 Bring in data from warehouse
+
+
 
