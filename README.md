@@ -10,12 +10,33 @@ The project focuses on data from NYC 311's database.
 * Problem: The general problem we are trying to solve is how can we analyze and understand the effect of outside variables on 311 complaints. 
 * Solution: Build a warehouse that updates automatically, and where it is easy to integrate other resources into, with frontend dashboard. As a proof of concept we will analyze the effect of covid and income levels on a subset of 311 complaints, noise complaints.
 
-
 In this Github, there will be files scripts that created our database and datawarehouse in MySQL workbench from the 311 data. 
 
 There will be charts and a Juptyer Notebook that examines the data for any statistical significance.
 
 There will also be a Tableau Notebook that connects directly to the AWS architectrue.
+
+## Data Sources
+[NYC311 requests|https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9]
+  Frequence: Daily
+  Rows:1.3M (Original 25M)
+  Columns:16
+  Data Type: API, CSV
+  Granularity: a 311 complaint
+
+[NYC Covid19|https://github.com/nychealth/coronavirus-data]
+  Frequence: Daily
+  Rows: 6764
+  Columns:3
+  Data Type: API, CSV
+  Granularity: caserate grouping by Zip Code
+
+[NYC Median Income|https://data.cccnewyork.org/data/table/66/median-incomes#66/107/62/a/a]
+  Frequence: 2019
+  Rows: 181
+  Columns:3
+  Data Type: CSV
+  Granularity: Grouping by Zip Code
 
 # 2 Deploy AWS
 ## 2.1 Create S3 and upload history data into S3
@@ -119,6 +140,11 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
     - conclude (reject/fail to reject null hypothesis)
 
 
+# 5 Lines of Work to Expand this Project in the Future
+  - Incorporate new datasets to measure new variables [race, twitter sentiments etc]
+  - Build a more robust architecture, possibly a columnar database to ease reporting
+  - Leverage Glue and other AWS products to create a more robust architecture in instead of custom scripts. ETL and transferring is done with scripts now, instead of aws tools. 
+  - Expand the dataset to NY state, or other cities
 
 
 
