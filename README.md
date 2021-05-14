@@ -167,7 +167,7 @@ In addition to exploring variables, we wanted to know if any of them had statist
     
     - use scipy to get p-value
 
-    ![plot](./Stats Images/IA_stats)
+    ![plot](./Stats Images/img/IA_merge.png)
 
     - conclude (reject/fail to reject null hypothesis)
 
