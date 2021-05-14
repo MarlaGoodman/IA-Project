@@ -14,6 +14,9 @@ There will be charts and a Juptyer Notebook that examines the data for any stati
 
 There will also be a Tableau Notebook that connects directly to the AWS architectrue.
 
+## Architecture Diagram
+  ![plot](./AWS/img/ArchitectureDiagram.png)
+
 ## Data Sources
   NYC311 requests: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9]
     - Frequence: Daily
@@ -36,8 +39,6 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
     - Data Type: CSV
     - Granularity: Grouping by Zip Code
 
-Architecture Diagram
-  ![plot](./AWS/img/Architecture Diagram.png)
  
 # 2 Deploy AWS
 ## 2.1 Create S3 and upload history data into S3
@@ -61,12 +62,14 @@ Architecture Diagram
     - run /AWS/sql/311_dw_ddl.sql
     - run /AWS/sql/311dw_init_date_temp_proc.sql
     - run /AWS/sql/311dw_updateDimensionsProc.sql
-  
+   
+   ![plot](./AWS/img/ERD.png)
+   
   - upload history data
     - history data of NYC median income. Open \AWS\script\jupyter311data_nyc_median_income_zipcode.ipynb. Modify file path to you local path, S3 paht or Github path. Run it.
     - history data of NYC 311. Open \AWS\script\311data_history_to_rds.ipynb. Modify file path to you local path, S3 paht or Github path. Run it.
-
-  ![plot](./AWS/img/database.png)
+   
+   ![plot](./AWS/img/database.png)
 
 ## 2.3 Create lambda functions
 - 2.3.1 zip all python scripts in /AWS/script without the /AWS/script/jupter. Name is function.zip
@@ -91,6 +94,7 @@ Architecture Diagram
   - 5) 311_daily_dw_update_stored_procedure. It will call storied proceduce to finish the Level-1 data warehouse.
     - upload the function.zip
     - add VPC. The VPC is small with instance of RDS
+  
   ![plot](./AWS/img/lambda.png)
 
 ## 2.4 Schedule the lambda functions
@@ -101,9 +105,17 @@ Architecture Diagram
   - create a rule. Runing time is 3:45am/per day. Select the Lambda function (311data_covid19_cases_to_rds_daily_rule) as target.
   - create a rule. Runing time is 4：00am/per day. Select the Lambda function (311_daily_dw_update_stored_procedure_rule) as target.
 
-  ![plot](./AWS/img/eventbridge.png)
+    ![plot](./AWS/img/eventbridge.png)
   
 # 3 Create Visualization
+ There are many variables an analyst might be interested analysing in this dataset. In our tableau workbook we connected directly to the AWS architecture to leverage the daily uploads. While there are many possible relationships in our data, we created three primary visualizations as proof of concept to explore.
+
+## 3.1 Week over Week Change in Noise Complaints
+    ![plot](./AWS/img/WeekOverWeek.png)
+## 3.2 Map of Covid/Median Income
+    ![plot](./AWS/img/CovidIncomeMap.png)
+## 3.3 Dashboard to explore Noise Complaints of Individual Zipcodes
+    ![plot](./AWS/img/ExploreComplaintsByZipcode.png)
 
 # 4 Analyze Data 
 (script here:https://github.com/MarlaGoodman/IA-Project/blob/main/IA%20Final%20Project%20Stats%20(1).ipynb)
