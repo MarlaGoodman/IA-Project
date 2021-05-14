@@ -165,7 +165,7 @@ In addition to exploring variables, we wanted to know if any of them had statist
     - create contingency table
     - use scipy to get p-value
 
-    ![plot](.AWS/img/con_table.png)
+    ![plot](./AWS/img/table.png)
 
     ![plot](./AWS/img/IA_stats.png)
 
