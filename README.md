@@ -108,6 +108,8 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
     ![plot](./AWS/img/eventbridge.png)
   
 # 3 Create Visualization
+  Downloadable Packaged Workbook: https://github.com/MarlaGoodman/IA-Project/blob/main/Info_Arch_Final.twbx
+  
  There are many variables an analyst might be interested analysing in this dataset. In our tableau workbook we connected directly to the AWS architecture to leverage the daily uploads. While there are many possible relationships in our data, we created three primary visualizations as proof of concept to explore.
 
 ## 3.1 Week over Week Change in Noise Complaints
@@ -116,6 +118,8 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
    ![plot](./AWS/img/CovidIncomeMap.png)
 ## 3.3 Dashboard to explore Noise Complaints of Individual Zipcodes
    ![plot](./AWS/img/ExploreComplaintsByZipcode.png)
+
+In addition to exploring variables, we wanted to know if any of them had statistically significant affects on the ammount of noise complaints.
 
 # 4 Analyze Data 
 (script here:https://github.com/MarlaGoodman/IA-Project/blob/main/IA%20Final%20Project%20Stats%20(1).ipynb)
