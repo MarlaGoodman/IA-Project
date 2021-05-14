@@ -5,8 +5,6 @@
 This project is the final project for the Information Architectures course in Yeshiva University's Data Analytics and Visualization Graduate program. 
 Team members are Jiaqi Min, Alan Leidner, Yuehao Wang, Ke Chen, and Marla Goodman
 
-The project focuses on data from NYC 311's database.
-
 * Problem: The general problem we are trying to solve is how can we analyze and understand the effect of outside variables on 311 complaints. 
 * Solution: Build a warehouse that updates automatically, and where it is easy to integrate other resources into, with frontend dashboard. As a proof of concept we will analyze the effect of covid and income levels on a subset of 311 complaints, noise complaints.
 
@@ -17,27 +15,30 @@ There will be charts and a Juptyer Notebook that examines the data for any stati
 There will also be a Tableau Notebook that connects directly to the AWS architectrue.
 
 ## Data Sources
-NYC311 requests: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9]
-  - Frequence: Daily
-  - Rows:1.3M (Original 25M)
-  - Columns:16
-  - Data Type: API, CSV
-  - Granularity: a 311 complaint
+  NYC311 requests: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9]
+    - Frequence: Daily
+    - Rows:1.3M (Original 25M)
+    - Columns:16
+    - Data Type: API, CSV
+    - Granularity: a 311 complaint
 
-NYC Covid19: https://github.com/nychealth/coronavirus-data
-  - Frequence: Daily
-  - Rows: 6764
-  - Columns:3
-  - Data Type: API, CSV
-  - Granularity: caserate grouping by Zip Code
+  NYC Covid19: https://github.com/nychealth/coronavirus-data
+    - Frequence: Daily
+    - Rows: 6764
+    - Columns:3
+    - Data Type: API, CSV
+    - Granularity: caserate grouping by Zip Code
 
-[NYC Median Income|https://data.cccnewyork.org/data/table/66/median-incomes#66/107/62/a/a]
-  - Frequence: 2019
-  - Rows: 181
-  - Columns:3
-  - Data Type: CSV
-  - Granularity: Grouping by Zip Code
+  [NYC Median Income|https://data.cccnewyork.org/data/table/66/median-incomes#66/107/62/a/a]
+    - Frequence: 2019
+    - Rows: 181
+    - Columns:3
+    - Data Type: CSV
+    - Granularity: Grouping by Zip Code
 
+Architecture Diagram
+  ![plot](./AWS/img/Architecture Diagram.png)
+ 
 # 2 Deploy AWS
 ## 2.1 Create S3 and upload history data into S3
 
