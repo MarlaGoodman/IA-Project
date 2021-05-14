@@ -163,7 +163,7 @@ In addition to exploring variables, we wanted to know if any of them had statist
     - state null and alternative hypotheses
     - meet chi - square test of independence conditions
     - create contingency table
-
+    
     ![plot](./AWS/img/IA_table1)
     
     - use scipy to get p-value
@@ -171,8 +171,9 @@ In addition to exploring variables, we wanted to know if any of them had statist
     ![plot](./AWS/img/IA_stats.png)
 
     - conclude (reject/fail to reject null hypothesis)
-    - Using a significance level of .05 (95%), we see that the p-value (0) is less than the significance value. Therefore, we reject the null hypothesis and conclude that there is some association between the timing of covid (Pre or During) and the complaints received by 311 in NYC.
-    - Can also take a look at noise complaints in another chi-square test
+       - Using a significance level of .05 (95%), we see that the p-value (0) is less than the significance value. Therefore, we reject the null hypothesis and conclude that there is some association between the timing of covid (Pre or During) and the complaints received by 311 in NYC.
+      
+   - Can also take a look at noise complaints in another chi-square test
 
 
 # 5 Lines of Work to Expand this Project in the Future
