@@ -18,7 +18,7 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
   ![plot](./AWS/img/ArchitectureDiagram.png)
 
 ## Data Sources
-  NYC311 requests: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9]
+  NYC311 requests: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9
     - Frequence: Daily
     - Rows:1.3M (Original 25M)
     - Columns:16
@@ -32,7 +32,7 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
     - Data Type: API, CSV
     - Granularity: caserate grouping by Zip Code
 
-  [NYC Median Income|https://data.cccnewyork.org/data/table/66/median-incomes#66/107/62/a/a]
+  NYC Median Income:https://data.cccnewyork.org/data/table/66/median-incomes#66/107/62/a/a
     - Frequence: 2019
     - Rows: 181
     - Columns:3
