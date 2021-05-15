@@ -46,10 +46,10 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
 - 2.1.1 In AWS, create a bucket and name it. For example, bucket name: information-arch-yuehao-wang-assignment-8a .
 
 - 2.1.2 Upload 4 files that are in the /AWS/data/ into the bucket above.
-  covid19_borough_caserate.csv
-  covid19_zipcode_caserate.csv
-  nyc_median_income_zipcode.csv
-  311_Service_Requests_from_2019_to_Present.csv (Github does not support uploading large file sized 1.4GB. The file in S3 will be used.)
+  - covid19_borough_caserate.csv
+  - covid19_zipcode_caserate.csv
+  - nyc_median_income_zipcode.csv
+  - 311_Service_Requests_from_2019_to_Present.csv (Github does not support uploading large file sized 1.4GB. The file in S3 will be used.)
 
 
 ## 2.2 Create RDS and databases (schema deployment)
