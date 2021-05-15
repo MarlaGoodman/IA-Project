@@ -65,8 +65,8 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
    
    ![plot](./AWS/img/ERD.png)
    
-  - Upload historical data
-    - historical data of NYC median income. Open \AWS\script\jupyter311data_nyc_median_income_zipcode.ipynb. Modify file path to you local path, S3 path or Github path. Run it.
+  - Upload historical data.
+    - historical data of NYC median income. Open \AWS\script\jupyter311data_nyc_median_income_zipcode.ipynb. Modify file path to local path, S3 path or Github path. Run it.
     - historical data of NYC 311. Open \AWS\script\311data_history_to_rds.ipynb. Modify file path to you local path, S3 path or Github path. Run it.
    
    ![plot](./AWS/img/database.png)
@@ -74,7 +74,7 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
 ## 2.3 Create AWS Lambda functions
 - 2.3.1 Zip all python scripts in /AWS/script without the /AWS/script/jupter. Name it function.zip
 
-- 2.3.2 Create a layer. 
+- 2.3.2 Create a layer 
   - Name it pandas-mysql-request
   - Upload the \AWS\sources\panda_layer.zip
 
