@@ -76,7 +76,7 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
 
 - 2.3.2 Create a layer 
   - Name it pandas-mysql-request
-  - Upload the \AWS\sources\panda_layer.zip
+  - Upload file \AWS\sources\panda_layer.zip
 
 - 2.3.3 Create 5 functions
   - 1) 311data_daily_save_to_s3
