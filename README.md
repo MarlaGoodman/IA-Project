@@ -98,7 +98,7 @@ There will also be a Tableau Notebook that connects directly to the AWS architec
   ![plot](./AWS/img/lambda.png)
 
 ## 2.4 Schedule the AWS Lambda functions
-  - Open AWS EventBridge (AWS CloudWatch Events)
+  - Open AWS EventBridge (AWS CloudWatch Events).
   - Create a rule. Runing time is 3:00am every day. Select the AWS Lambda function (311data_daily_save_to_s3) as target.
   - Create a rule. Runing time is 3:15am every day. Select the AWS Lambda function (311data_covid19_cases_to_s3_daily_rule) as target.
   - Create a rule. Runing time is 3:30am every day. Select the AWS Lambda function (311data_daily_data_to_rds_rule) as target.
